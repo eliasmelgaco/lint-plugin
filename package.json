@@ -1,0 +1,27 @@
+{
+  "name": "lint-plugin",
+  "version": "0.1.0",
+  "description": "lint for JS, HTML and CSS",
+  "private": true,
+  "main": "lib/index.js",
+  "author": "Elias Melgaco",
+  "license": "MIT",
+  "scripts": {
+    "lint:html": "eslint . --ext .html",
+    "lint:js": "eslint . --ext .json,.js",
+    "lint:styles": "stylelint '**/*.css'"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint-plugin-html": "6.0.0",
+    "eslint-plugin-json": "2.1.1",
+    "eslint-plugin-node": "11.1.0",
+    "stylelint": "13.2.1",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-order": "4.0.0",
+    "stylelint-scss": "^3.16.0"
+  },
+  "peerDependencies": {
+    "eslint": "6.8.0"
+  }
+}
