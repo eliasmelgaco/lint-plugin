@@ -1,5 +1,5 @@
 {
-  "name": "@stilingue/lint-plugin",
+  "name": "@stilingue/eslint-plugin",
   "version": "0.1.0",
   "description": "lint for JS, HTML and CSS",
   "private": true,
